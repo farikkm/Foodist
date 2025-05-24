@@ -313,6 +313,7 @@ a {
 }
 
 .offer__slider-wrapper {
+    position: relative;
     width: 100%;
     margin-top: 15px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, .25)
@@ -739,4 +740,13 @@ a {
     to {
         opacity: 1;
     }
+}
+
+.offer__slide_plug {
+    position: absolute;
+    right: 0; top: 0;
+    width: 650px;
+    height: 390px;
+    background: transparent;
+    opacity: 0;
 }
